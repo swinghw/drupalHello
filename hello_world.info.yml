@@ -1,4 +1,4 @@
-name: Hello World Module
+name: drupalHello Module
 description: Creates a page showing "Hello World".
 package: Custom
 type: module
