@@ -1,0 +1,27 @@
+<?php
+
+/**
+* Implements hook_theme().
+*/
+function hello_world_theme() {
+    return [
+      'hello_world_block' => [
+        'variables' => [
+          'data' => [],      
+        ],
+      ],
+    ];
+}
+
+/** 
+*
+* Register sugeestions by implementing hook_theme_suggestions_HooK()
+*
+*
+*function hello_world_theme_suggestions_block(array $variables) {
+*  $suggestions = [];
+*  $suggestions[] = 'hello_world_block';
+*
+*  return $suggestions;
+*}
+*/
