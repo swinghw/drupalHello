@@ -7,7 +7,9 @@ function hello_world_theme() {
     return [
       'hello_world_block' => [
         'variables' => [
-          'data' => [],      
+          'active_tab' => NULL,
+          'body_text' => NULL,
+          'tabs' => [],      
         ],
       ],
     ];
