@@ -4,4 +4,12 @@ hello_world.content:
     _controller: '\Drupal\hello_world\Controller\HelloController::content'
     _title: 'Hello World'
   requirements:
-    _permission: 'access content'      
+    _permission: 'access content'  
+
+hello_world.uninstall:
+  path: '/hello/uninstall'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloController::removeModule'
+    _title: 'Uninstall the broken module'
+  requirements:
+    _permission: 'access content'

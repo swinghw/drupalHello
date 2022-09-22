@@ -1,5 +1,5 @@
 name: drupalHello Module
-description: Creates a page showing "Hello World".
+description: Can uninstall a broken module programmatically.
 package: Custom
 type: module
 version: 1.0
